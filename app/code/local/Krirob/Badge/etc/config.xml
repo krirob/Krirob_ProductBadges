@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Krirob_Badge>
+            <version>0.1.0</version>
+        </Krirob_Badge>
+    </modules>
+    <global>
+        <blocks>
+            <krbadge>
+                <class>Krirob_Badge_Block</class>
+            </krbadge>
+        </blocks>
+        <models>
+            <krbadge>
+                <class>Krirob_Badge_Model</class>
+            </krbadge>
+        </models>
+        <helpers>
+            <krbadge>
+                <class>Krirob_Badge_Helper</class>
+            </krbadge>
+        </helpers>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <krbadge module="Krirob_Badge">
+                    <file>badge.xml</file>
+                </krbadge>
+            </updates>
+        </layout>
+    </frontend>
+</config>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Krirob_Badge>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Krirob_Badge>
+    </modules>
+</config>
